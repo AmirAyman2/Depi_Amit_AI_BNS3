@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run UI.py",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "C:\\Users\\wifi\\Desktop\\Depi_Amit_BNS3\\Depi_Amit_AI_BNS3\\Final Project Python\\Task 7\\core\\ui.py"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "options": {
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder}"
+                }
+            }
+        }
+    ]
+}
